@@ -46,7 +46,7 @@ Client.on("message", function(msg) {
 		}
 
 		if(user.avatarURL === null) {
-			msg.reply("no avatar to display.");
+			msg.reply("No avatar to display.");
 		}
 
 		Embed.setTitle(user.username + "'s avatar");
